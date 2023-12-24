@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class KafkaConsumerExampleApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Added comment in Main file");
 		SpringApplication.run(KafkaConsumerExampleApplication.class, args);
 	}
 
